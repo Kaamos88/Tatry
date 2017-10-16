@@ -1,0 +1,227 @@
+body{
+    font-family: roboto;
+    margin: 0px; 
+    background: #5a5560;
+}
+
+#wrapper{
+    width: 1310px;
+    margin: 0px auto;
+    background: #97743a;
+    color: #f6f1ed;
+
+}
+
+.header{
+    position: relative;
+    top: 40px;
+    height: 500px;
+    padding: 1px 0;
+    background: url(../img/tatry-2772278_1920.jpg) no-repeat center;
+    background-size: cover;
+    
+}
+
+.header h1{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    margin: 0;
+    text-align: center;
+    font-size: 5em;
+    padding-top: 150px;
+    text-shadow: 4px 4px 2px rgba(0, 0, 0, 1);
+}
+
+
+#main-navigation{
+    
+    padding-bottom: 0px;
+    
+}
+
+#main-navigation ul{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    list-style-type: none;
+    text-align: center;
+    margin: 10px;
+    
+   
+    
+}
+
+
+nav{
+    position: fixed;
+    z-index: 1;
+    float: right;
+    width: 1310px;;
+    background: #000;
+    
+
+    
+}
+
+
+#main-navigation li{
+    padding: 0 40px;
+   
+}
+
+
+#main-navigation a{
+    text-decoration: none;
+    color: #faed18;
+    font-size: 20px;
+    color: #97743a; 
+    
+}
+
+#main-navigation img{
+    position: absolute;
+    top: 10%;
+    width: 39px;
+    
+    
+}
+
+#main-navigation a:hover{
+    color: #5a5560;
+    
+}
+
+#main-navigation ul:after{
+    content: "";
+    display: block;
+    clear: both;
+    
+}
+
+
+
+
+
+#heading h2{
+   
+    font-size: 3em;
+    text-align: center;
+    padding:  20px;
+   
+  
+}
+
+#DG, #KW, #GT, #DPSP, #SW{
+    display: flex;
+    width: 100%;
+   
+    padding: 50px 0px;
+    
+    
+}
+
+
+.text{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+}
+
+
+
+.text h3{
+    font-size: 1.5em;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+
+.text p{
+    text-align:justify;
+    padding: 0 20px;
+    
+    
+    
+}
+
+.image-container{
+   width: 30%;
+   display: flex; 
+   justify-content: center;
+   align-items: center;
+    
+}
+
+
+.image-container img{
+    max-width: 90%;
+    border: 10px solid #262626;
+    border-radius: 20px;
+}
+
+
+
+.rotate img{
+  -webkit-transform:rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+
+}
+
+#footer{
+    display: flex;
+    height: 50px;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 5px solid #262626;
+    margin: 0 auto;
+
+    
+}
+.copy{
+    margin-left:  50px;
+    font-size: 1.5em;
+}
+.social ul{
+    margin-right: 40px;
+    list-style-type: none;
+    display: flex; 
+}
+
+.social li{
+    padding:0 10px
+      
+}
+
+.social img{
+    width: 32px;
+    
+}
+
+@media screen and (max-width: 1020px){
+    #DG, #KW, #GT, #DPSP, #SW{
+    flex-direction: column;
+    align-items: center;
+    }
+    
+    .two{
+        order: 1;
+    }
+    .two-img{
+        order: 2; 
+    }
+    
+    .rotate{
+        padding: 50px;
+    }
+}
+

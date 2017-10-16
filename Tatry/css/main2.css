@@ -1,0 +1,233 @@
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
+
+
+body{
+  margin:0px;
+  background-color: #262216;
+}
+
+p{
+  font-family: 'Lato', sans-serif;
+  font-size: 1.5rem;
+  color: #b0a18e;
+}
+
+h2{
+  text-align: center;
+  font-size: 3rem;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1;
+  color: #f6f1ed;
+}
+
+h3{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  color: #97743a;
+}
+
+a{
+  text-decoration: none;
+  color: #97743a;
+}
+
+a:hover{
+  color: #f6f1ed;
+
+}
+/*  nav */
+nav {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  height:auto;
+  margin-top: 0px;
+}
+
+
+
+nav li{
+  text-transform: uppercase;
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
+  color: #f6f1ed;
+  margin: 1% 40px 1% 40px;
+}
+
+nav a{
+  text-decoration: none;
+  color: #f6f1ed;
+}
+
+nav a:hover{
+  color:#97743a;
+}
+
+.cover{
+
+  background-image: url(../img/tatry-2772278_1920.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-top: 5px solid #97743a;
+  border-bottom: 5px solid #97743a;
+  height: 46em;
+}
+
+/* header */
+
+.header{
+  height: 100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-shadow: 4px 4px #262216;
+  font-family: 'Roboto', sans-serif;
+  font-size: 6em;
+  color: #f6f1ed;
+}
+
+/* main */
+
+#main{
+
+  width: 86%;
+  margin: auto;
+  margin-bottom: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  float: center;
+  justify-content: space-around;
+}
+
+#main .post{
+
+
+  width: 70%;
+  align-items: flex-start;
+  text-align: center;
+
+}
+
+.post .first-line{
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #97743a;
+}
+
+.post .first-line2{
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #97743a;
+}
+
+.post p{
+    display:
+}
+
+
+
+/* footer */
+
+#footer{
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  border-top: 2px solid #97743a;
+  margin: 10%;
+  margin-bottom: 1%;
+
+}
+
+.social li{
+  display: inline-block;
+}
+
+.social li img{
+
+  width: 24px;
+  height: auto;
+
+}
+
+/* img */
+.post .image-container img{
+
+  margin: 20px;
+  max-width: 300px;
+  height: auto;
+  float: right;
+  border: 5px solid #97743a;
+  border-radius: 30px;
+
+}
+
+.post .image-container2 img{
+  margin: 20px;
+  max-width: 300px;
+  height: auto;
+  float: left;
+  border: 5px solid #97743a;
+  border-radius: 30px;
+
+}
+
+
+.rotate img{
+  -webkit-transform:rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+
+}
+
+/* Fonts
+font-family: 'Gloria Hallelujah', cursive;
+font-family: 'Acme', sans-serif;
+font-family: 'Mountains of Christmas'
+font-family: 'Roboto', sans-serif;
+font-family: 'Lato', sans-serif;
+
+*/
+
+/*
+.copy{
+    border: 2px solid red;
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    align-items: left;
+
+}
+
+.social{
+  border: 2px solid red;
+  display: flex;
+  justify-content: right;
+  text-align: right;
+  align-items: right;
+
+  margin:10px;
+}
+.social p{
+  border: 2px solid red;
+  display: flex;
+  justify-content: left;
+  text-align: left;
+  align-items: left;
+}
+*/
